@@ -1,0 +1,24 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body{
+  $skyBlue: rgb(123, 167, 250);
+  background-color: $skyBlue;
+  background: linear-gradient($skyBlue, lighten($skyBlue, 10));
+}
+#gameCanvas{
+  width: 500px;
+  height: 500px;
+  position:absolute;
+  left: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  transform: translateX(-250px);
+
+  background-color: white;
+
+  box-shadow: 0 0 250px white;
+}
